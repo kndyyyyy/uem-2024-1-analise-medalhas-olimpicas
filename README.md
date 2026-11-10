@@ -1,4 +1,4 @@
-# UEM 2024/1 - Análise de Medalhas Olímpicas (Paris 2024)
+# Análise de Medalhas Olímpicas (Paris 2024)
 
 Trabalho da disciplina **Fundamentos de Algoritmos** da Universidade Estadual de Maringá (UEM).
 
