@@ -2,8 +2,6 @@
 
 Trabalho da disciplina **Fundamentos de Algoritmos** da Universidade Estadual de Maringá (UEM).
 
-**Autor:** Arthur Kendy Nishimuta - RA 139099
-
 ## Descrição
 
 O programa lê um arquivo CSV com os dados das medalhas das Olimpíadas de Paris 2024 e gera:
@@ -16,7 +14,6 @@ O trabalho utiliza listas de listas, tipos estruturados (`dataclass`), funções
 ## Arquivos
 
 - `analise_medalhas_olimpicas.py` - código-fonte do programa.
-- `7. Especificação do Trabalho 2.pdf` - enunciado do trabalho.
 - `medals.csv` - base de dados (não inclusa no repositório).
 
 A base de dados pode ser obtida em:
@@ -33,39 +30,3 @@ python analise_medalhas_olimpicas.py medals.csv
 ```
 
 O arquivo `medals.csv` deve estar na mesma pasta do script (ou informe o caminho completo dele).
-
-## Comandos para subir o projeto no GitHub
-
-### Primeira vez (criar o repositório local e enviar)
-
-1. Crie um repositório **vazio** no GitHub (sem README, sem `.gitignore`).
-2. No terminal do VS Code, dentro da pasta do projeto, execute:
-
-```bash
-git init
-git add .
-git commit -m "Trabalho 2 - análise de medalhas olímpicas"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/uem-2024-1-analise-medalhas-olimpicas.git
-git push -u origin main
-```
-
-> Troque `SEU-USUARIO` pelo seu usuário do GitHub.
-
-### Próximos commits e pushes
-
-Sempre que alterar algo no projeto:
-
-```bash
-git add .
-git commit -m "Descrição da alteração"
-git push
-```
-
-### Comandos úteis
-
-```bash
-git status          # ver o que foi alterado
-git log --oneline   # ver o histórico de commits
-git remote -v       # ver o repositório remoto configurado
-```
